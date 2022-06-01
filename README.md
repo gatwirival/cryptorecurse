@@ -1,8 +1,8 @@
 # Cryptorecurse - Explore the World of Cryptocurrency
 
-![image](https://user-images.githubusercontent.com/61587290/171090832-d82ab411-4350-41c5-9ff9-3bb18b268b95.png)
+![image](https://user-images.githubusercontent.com/61587290/171366689-e8e3ef72-ebe0-427e-a6c6-782d6eda068b.png)
 
-![image](https://user-images.githubusercontent.com/61587290/171090882-5254c8ac-791f-4d5f-b6aa-1df139a8f792.png)
+![image](https://user-images.githubusercontent.com/61587290/171366867-2ca2c179-828b-4edb-908c-496f87bdbb3f.png)
 
 ### Prerequesites
  
