@@ -3,10 +3,10 @@
     background: purple;
     }
 :root{
-    --text-primary:#000;
+    --text-primary:white;
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
-   --blue: #0071bd;
+   --blue: white;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
 }
