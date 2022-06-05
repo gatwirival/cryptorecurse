@@ -28,9 +28,9 @@ Install the dependencies in the local node_modules folder.
 In global mode (ie, with -g or --global appended to the command), it installs the current package context (ie, the current working directory) as a global package.
 
 ## todo
-- fix ui
-- Add login
-- 
+[]fix ui
+[] Add login
+
 **NB**
 
 ***App.js***
@@ -61,8 +61,8 @@ import './App.css';
                   <Route path="/news" element={<News />} />                                   
               </Routes>
          </div>
-       </Layout>
-       ```
+      </Layout>
+   ```
 - if you want to use Switch like me then install react-router-dom version 5. Switch is replaced in react-router-dom version 6.
 
 `npm install react-router-dom@5`
