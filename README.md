@@ -30,11 +30,16 @@ In global mode (ie, with -g or --global appended to the command), it installs th
 ## todo
 - fix ui
 - Add login
+- 
 **NB**
+
 ***App.js***
+
 - `react-router-dom` version 6,  replaced `Switch` with the `Routes` component.If you are using  `react-router-dom` version 6 replace `Switch` with `Routes` in app.js
 - Note that you now also pass your component as the element prop instead of using children.
+
 **example**
+
 ```js
 import React from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
