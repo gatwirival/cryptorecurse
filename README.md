@@ -30,3 +30,36 @@ In global mode (ie, with -g or --global appended to the command), it installs th
 ## todo
 - fix ui
 - Add login
+**NB**
+***App.js***
+- `react-router-dom` version 6,  replaced `Switch` with the `Routes` component.If you are using  `react-router-dom` version 6 replace `Switch` with `Routes` in app.js
+- Note that you now also pass your component as the element prop instead of using children.
+**example**
+```js
+import React from 'react';
+import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
+import { layout, Typography, Space, Divider } from 'antd';
+
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import './App.css';
+@@ -12,26 +12,17 @@ const App = () => (
+    </div>
+    <div className="main">
+      <Layout>
+        <div className='routes'>
+
+              <Routes>
+                  <Route path="/" element={<Homepage />} />
+                  <Route path="/exchanges" element={<Exchanges />}/>
+                  <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
+                  <Route path="/crypto/:coinId" element={<CryptoDetails />} />
+                  <Route path="/news" element={<News />} />                                   
+              </Routes>
+         </div>
+       </Layout>
+       ```
+- if you want to use Switch like me then install react-router-dom version 5. Switch is replaced in react-router-dom version 6.
+
+`npm install react-router-dom@5`
+
+Happy coding!
