@@ -37,13 +37,13 @@ const Navbar = () => {
       {activeMenu && (
       <Menu theme="">
         <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ color: 'white' }}>Home</Link>
         </Menu.Item>
         <Menu.Item icon={<FundOutlined />}>
-          <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+          <Link to="/cryptocurrencies" style={{ color: 'white' }}>Cryptocurrencies</Link>
         </Menu.Item>
         <Menu.Item icon={<BulbOutlined />}>
-          <Link to="/news">News</Link>
+          <Link to="/news" style={{ color: 'white' }}>News</Link>
         </Menu.Item>
       </Menu>
       )}

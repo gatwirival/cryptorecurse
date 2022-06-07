@@ -1,12 +1,16 @@
 @import '~antd/dist/antd.css';
 .ant-menu{
     background: purple;
-    }
+    color: royalblue;
+    left: 0;
+    height: 100vh;
+    margin: 0px;
+}
 :root{
     --text-primary:white;
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
-   --blue: white;
+   --blue: rgb(47, 83, 95);
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
 }
@@ -28,7 +32,7 @@ a:hover{
 
 .navbar{
     flex: 0.2;
-    background-color: purple;
+    background-color: white;
 }
 
 .main{
@@ -42,7 +46,6 @@ a:hover{
 .nav-container{
     position: fixed;
     left: 0;
-    margin: 10px;
     height: 100vh;
     margin: 0px;
     background-color: purple;
@@ -52,14 +55,17 @@ a:hover{
     background-color: purple;
     display: flex;
     padding: 20px;
-    align-items: center;
-    width: 100%;
+    align-items: left;
+    width:100%;
 }
 .logo{
     margin:0 0 0 15px;
 }
 .logo a{
-   color: purple;
+   color: white;
+   width: 20px;
+   padding-bottom: 20px;
+   align-items: center
 }
 .menu-control-container{
     display: none !important;
@@ -125,9 +131,6 @@ a:hover{
         display: block !important;
     }
 
-    .ant-menu{
-        position: absolute;
-        right: 0px;
     }
     .home-title{
         font-size: 1.4rem !important;
@@ -135,7 +138,7 @@ a:hover{
     .show-more{
         font-size: 1.3rem !important;
     }
-}
+
 
 .coin-detail-container{
     margin: 30px;
