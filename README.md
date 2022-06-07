@@ -29,7 +29,7 @@ In global mode (ie, with -g or --global appended to the command), it installs th
 
 ## todo
 
-- [ ] fix ui
+- [x] fix ui
 - [ ] Add login
 
 **NB**
