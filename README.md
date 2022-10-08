@@ -64,7 +64,7 @@ import './App.css';
          </div>
       </Layout>
    ```
-- if you want to use Switch like me then install react-router-dom version 5. Switch is replaced in react-router-dom version 6.
+- if you want to use Switch like me then install react-router-dom version 5. 
 
 `npm install react-router-dom@5`
 
