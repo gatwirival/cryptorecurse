@@ -1,6 +1,6 @@
-@import '~antd/dist/antd.css';
+@import 'antd/dist/antd.min.css';
 .ant-menu{
-    background: purple;
+    /*background-color: purple;*/
     color: royalblue;
     left: 0;
     height: 100vh;
@@ -9,10 +9,10 @@
 :root{
     --text-primary:white;
     --bgPrimary:#fff;
-   --bgSecondary: #F9F9F9;
+   --bgSecondary: #f9f9f9;
    --blue: rgb(47, 83, 95);
    --light-blue: #e6f7ff;
-   --border: #d9d9d9;
+   --border: #b9b9b9;
 }
 
 * {
@@ -31,17 +31,16 @@ a:hover{
 }
 
 .navbar{
-    flex: 0.2;
+    flex: 0.13;
     background-color: white;
 }
 
 .main{
     flex: 0.8;
-    width: 100%;
-    
+    width: 100%;   
 }
 .routes{
-    padding: 20px;
+    padding: 10px;
 }
 .nav-container{
     position: fixed;
