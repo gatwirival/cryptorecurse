@@ -57,7 +57,10 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
-
+  <div className="main">
+<div className="app">
+        <div className="navbar">
+        <Navbar />
     </div>
     <div className="main">
       <Layout>
