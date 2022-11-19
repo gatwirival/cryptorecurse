@@ -48,7 +48,7 @@ import { layout, Typography, Space, Divider } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
-@@ -12,26 +12,17 @@ const App = () => (
+const App = () => (
     </div>
     <div className="main">
       <Layout>
