@@ -11,8 +11,11 @@
  ### Tools Used
  - Ant-d for styling
  - Rapid APIs
+ 
   ***Coin Ranking API***
+  
   ***Bing News API***
+  
  - Chart.js
  - React.js
  - Redux.js
