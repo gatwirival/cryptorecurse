@@ -57,6 +57,7 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
+
     </div>
     <div className="main">
       <Layout>
@@ -96,7 +97,7 @@ import './App.css';
 
 export default App;
 ```
-- if you want to use Switch like me then install react-router-dom version 5. 
+- if you want to use Switch, install react-router-dom version 5. 
 
 `npm install react-router-dom@5`
 
