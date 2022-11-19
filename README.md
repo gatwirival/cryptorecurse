@@ -12,9 +12,9 @@
  - Ant-d for styling
  - Rapid APIs
  
-  ***Coin Ranking API***
+  - ***Coin Ranking API***
   
-  ***Bing News API***
+  - ***Bing News API***
   
  - Chart.js
  - React.js
