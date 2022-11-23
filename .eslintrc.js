@@ -80,6 +80,7 @@ module.exports = {
           'invalidHref',
           'preferButton',
         ],
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
       },
     ],
   },
